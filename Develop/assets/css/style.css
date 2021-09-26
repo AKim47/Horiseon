@@ -1,13 +1,16 @@
+/* Styling for all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Page background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Navigation styling start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +44,20 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Navigation styling end */
+
+/* Link styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Normal Text styling */
 p {
     font-size: 16px;
 }
 
+/* Jumbotron/Hero image */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +67,7 @@ p {
     background-position: center;
 }
 
+/* General justify stylings start */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +78,36 @@ p {
     margin-left: 25px;
 }
 
+/*General justify stylings end */
+
+/* Content stylings start */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-section img {
+    max-height: 200px;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Content stylings end */
+
+/* Benefits styling start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -101,25 +134,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits styling end */
 
-.content-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-section img {
-    max-height: 200px;
-}
-
-.content-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer styling start */
 footer {
     padding: 30px;
     clear: both;
@@ -130,3 +147,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* Footer styling end */
