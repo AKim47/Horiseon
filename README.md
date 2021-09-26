@@ -9,4 +9,7 @@ using comments, in which I labeled or described the section of the corresponding
 
 ## Image Mockup
 
-![Horiseon Mockup](assets\images\01-html-css-git-homework-demo.png)
+![Horiseon Mockup](./assets/images/01-html-css-git-homework-demo.png)
+
+## Link to Site
+![Horiseon Site Link](https://akim47.github.io/Horiseon/)
